@@ -1,0 +1,27 @@
+{
+  "name": "powerkernel/yii-auth",
+  "description": "Yii auth API module",
+  "type": "yii-module",
+  "homepage": "https://powerkernel.com",
+  "keywords": [
+    "yii",
+    "auth",
+    "api",
+    "module"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Harry Tang",
+      "email": "harry@powerkernel.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "3.0.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "powerkernel\\yiiauth\\": "src"
+    }
+  }
+}
