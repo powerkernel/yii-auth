@@ -4,6 +4,7 @@ Yii Auth API
 Prerequisites
 -------------
 - [Yii API Starter Kit](https://github.com/powerkernel/yii-api-starter-kit)
+- [Yii Common](https://github.com/powerkernel/yii-common)
 - [Yii User API](https://github.com/powerkernel/yii-user)
 
 Installation
@@ -14,7 +15,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require powerkernel/yii-auth "@dev"
+composer require powerkernel/yii-auth "@dev"
 ```
 
 or add
